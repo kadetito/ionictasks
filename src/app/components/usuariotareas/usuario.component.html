@@ -1,0 +1,9 @@
+<ion-item lines="none">
+    <ion-avatar slot="start" *ngIf="user.imagen != null">
+        <img src="/assets/avatars/{{ user.imagen }}" />
+    </ion-avatar>
+    <ion-label>
+        <h3>{{ user.nombres }}</h3>
+        <h5>{{ user.email }}</h5>
+    </ion-label>
+</ion-item>
